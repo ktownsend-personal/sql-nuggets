@@ -1,22 +1,17 @@
 # sql-nuggets
 
-Sometimes I create some really useful SQL Server queries.
+Sometimes I create some really useful SQL queries.
 
-I have been using SQL Server for a very long time...since version 6.5, before they used years as version numbers. On occasion I create something extra special that transcends the usual routine work and it deserves sharing.
+I have been using SQL Server for a very long time...since version 6.5, before they used years as version numbers. On occasion I create something worth remembering and sharing.
 
-Feedback is welcome. If you fix a problem or add a useful feature feel free to submit a PR and give me some details about it.
+>Feedback is welcome. If you fix a problem or add a useful feature feel free to submit a PR and give me some details about it. If you have a problem you can't fix, of course raise an issue.
 
 ## Nuggets
 
-Each nugget has a folder with a README file for more information.
+Each nugget has a folder with a `README.md` file for more information. The nugget itself is in the corresponding `.sql` file in that folder.
 
-The links below are directly to the SQL files, since I can't link to a folder.
-
-|nugget|description|
+|Nugget|Description|
 |:---|:---|
-|[json-minify](json-minify/json-minify.sql)|strip whitespace out of JSON string|
-|[data-compare](data-compare/data-compare.sql)|compare any two sets of data|
-|[table-row-counts](table-row-counts/table-row-counts.sql)|row counts for all tables in a database|
-
-[testing folder link](json-minify)
-[testing folder link/](json-minify/)
+|[json-minify](json-minify)|strip whitespace out of JSON string|
+|[data-compare](data-compare)|compare any two sets of data|
+|[table-row-counts](table-row-counts)|row counts for all tables in a database|
