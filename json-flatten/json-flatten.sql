@@ -1,8 +1,9 @@
-ALTER   function [dbo].[json_flatten](
+create or alter function [dbo].[json_flatten](
     @json varchar(max)
 ) returns table as
     /*  
         Created by Keith Townsend on 3/19/2024
+        MIT License
 
         Recursive CTE to flatten nested JSON up to depth 100
 

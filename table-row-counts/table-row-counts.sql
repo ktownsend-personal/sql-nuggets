@@ -1,4 +1,10 @@
---> row counts for all tables
+/*
+  Created by Keith Townsend, long ago
+  MIT License
+
+  Gets row counts for all table in one query.
+*/
+
 select  [Schema] = schema_name(obj.schema_id),
         [Table] = obj.name,
         Rows = sum(dmv.row_count)

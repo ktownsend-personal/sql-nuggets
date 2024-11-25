@@ -1,7 +1,6 @@
 create or alter function [dbo].[json_minify](
     @value varchar(max)
 ) returns varchar(max) as begin
-
     /*
         Created by Keith Townsend on 4/22/2024
         MIT License

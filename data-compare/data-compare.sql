@@ -6,7 +6,6 @@ create or alter proc [dbo].[data_compare] (
     @notcol varchar(max) = null, --> optional columns to ignore (comma-separated, no brackets)
     @notkey varchar(max) = null  --> optional key values to ignore (comma-separated)
 ) as
-
     /*
         Created by Keith Townsend, 5/16/2024
         MIT License
