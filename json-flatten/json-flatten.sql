@@ -1,4 +1,4 @@
-create or alter function [dbo].[json_flatten](
+create or alter function dbo.json_flatten(
     @json varchar(max)
 ) returns table as
     /*  

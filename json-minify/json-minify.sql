@@ -1,4 +1,4 @@
-create or alter function [dbo].[json_minify](
+create or alter function dbo.json_minify(
     @value varchar(max)
 ) returns varchar(max) as begin
     /*

@@ -1,4 +1,4 @@
-create or alter function test.FindObjects(
+create or alter function dbo.FindObjects(
     @contains varchar(max)
 ) returns table as 
     /*

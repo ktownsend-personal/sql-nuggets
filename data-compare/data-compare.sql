@@ -1,4 +1,4 @@
-create or alter proc [dbo].[data_compare] (
+create or alter proc dbo.data_compare (
     @table1 varchar(max),        --> first table to compare; use schema and brackets if needed, or json array of data row objects
     @table2 varchar(max),        --> second table to compare; use schema and brackets if needed, or json array of data row objects
     @keycol varchar(max),        --> join columns: comma separated if same in both tables or json object defining how keys are matched like {"table1key1":"table2key1","table1key2":"table2key2"}
