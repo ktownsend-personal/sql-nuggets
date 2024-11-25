@@ -1,4 +1,4 @@
-# Data Compare
+# data-compare
 
 I often find myself needing to quickly compare data, usually before and after results from a view or a table when I am making changes to something. It wasn't often enough to justify the cost of a dedicated tool, so I found myself writing custom compare queries unique to each situation and then discarding them when the task was done. Tedious and boring. Not what a real developer would do. 
 

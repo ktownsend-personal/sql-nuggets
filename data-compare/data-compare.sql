@@ -9,7 +9,9 @@ create or alter proc [dbo].[data_compare] (
 
     /*
         Created by Keith Townsend, 5/16/2024
-        Inspired by work done by Thato Mantai found at https://thitos.blogspot.com/2014/03/compare-data-from-two-tables.html
+        MIT License
+
+        Inspired by Thato Mantai using XML, which gave me the idea to use JSON: https://thitos.blogspot.com/2014/03/compare-data-from-two-tables.html
         Published my previous version as answer on StackOverflow: https://stackoverflow.com/a/78490999/18155330
         This version is different enough from the previous version to consider it a new solution. 
 
