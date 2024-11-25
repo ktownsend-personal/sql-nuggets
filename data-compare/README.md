@@ -1,5 +1,7 @@
 # data-compare
 
+[data-compare.sql](data-compare.sql)
+
 I often find myself needing to quickly compare data, usually before and after results from a view or a table when I am making changes to something. It wasn't often enough to justify the cost of a dedicated tool, so I found myself writing custom compare queries unique to each situation and then discarding them when the task was done. Tedious and boring. Not what a real developer would do. 
 
 I long desired to make a universal data compare tool, and attempted it a few times over the years but was never satisfied with the result. Not flexible enough, too much string manipulation to make dynamic queries, verbose results to sift through. Finally, earlier this year (May 2024) I had an epiphany and realized I could use JSON functions to slice and dice the data in a dynamically comparable way.

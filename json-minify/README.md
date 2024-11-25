@@ -1,5 +1,7 @@
 # json-minify
 
+[json-minify.sql](json-minify.sql)
+
 It shocks me every time I need to minify some JSON in a SQL query that it's not a built-in capability of SQL Server.
 
 I have had a couple iterations of this, but finally it seems fast and stable enough to share.
