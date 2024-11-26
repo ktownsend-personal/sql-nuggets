@@ -32,7 +32,7 @@ If you examine the raw output of the function you can see how it organizes the r
 ```SQL
 select * from dbo.json_flatten(@json)
 ```
->Not shown in this example, but I used my [json-minify](/json-minify/) function on @json to remove line breaks and make the results easier to view.
+>Not shown in this example, but I used my [json-minify](/nuggets/json-minify/) function on @json to remove line breaks and make the results easier to view.
 
 - `path` is the same syntax as what JSON functions would use to access the element
 - `stub` is similar to `path`, but the array indexes are omitted to make it easier to filter a nested array across all objects

@@ -12,9 +12,9 @@ Each nugget has a folder with a `README.md` file for more information. The nugge
 
 |Nugget|Description|
 |:---|:---|
-|[json-minify](json-minify)|strip whitespace out of JSON string|
-|[json-flatten](json-flatten)|flatten all depths of JSON to rows|
-|[data-compare](data-compare)|compare any two sets of data|
-|[table-row-counts](table-row-counts)|row counts for all tables in a database|
-|[dependency-matrix](dependency-matrix)|find objects using an object, and what columns are used|
-|[find-objects](find-objects)|find objects containing a search string in their definitions|
+|[json-minify](/nuggets/json-minify)|strip whitespace out of JSON string|
+|[json-flatten](/nuggets/json-flatten)|flatten all depths of JSON to rows|
+|[data-compare](/nuggets/data-compare)|compare any two sets of data|
+|[table-row-counts](/nuggets/table-row-counts)|row counts for all tables in a database|
+|[dependency-matrix](/nuggets/dependency-matrix)|find objects using an object, and what columns are used|
+|[find-objects](/nuggets/find-objects)|find objects containing a search string in their definitions|

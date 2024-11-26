@@ -36,4 +36,4 @@ exec test.DependencyMatrix 'dbo.MyFlagsView'
 - you can specify more than one source object, but that only makes sense if they have basically the same columns
 - you can specify a list of referencing objects to ignore
 - the query can return error messages when discovery fails, and the query tool may show that instead of the results grid, so just switch to the grid manually after the query finishes
-- I sometimes use [find-objects](/find-objects) to double-check in case this might miss something, such as references inside sql strings that get executed
+- I sometimes use [find-objects](/nuggets/find-objects) to double-check in case this might miss something, such as references inside sql strings that get executed
