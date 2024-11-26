@@ -5,7 +5,7 @@ This is a nice way to visualize what objects have dependencies on an object you 
 Basic usage:
 
 ```SQL
-exec test.DependencyMatrix 'dbo.MyFlagsView'
+exec dbo.DependencyMatrix 'dbo.MyFlagsView'
 ```
 
 |referenced|referencing|type|columns|FlagLevel|FlagReason|PID|ProcessId|FlagMeta|

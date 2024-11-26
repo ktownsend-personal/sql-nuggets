@@ -7,7 +7,7 @@ I chose to make it a function because it is easier to consume than a stored proc
 Example:
 
 ```SQL
-select name from test.FindObjects('select') where type = 'SQL_SCALAR_FUNCTION' order by name
+select name from dbo.FindObjects('select') where type = 'SQL_SCALAR_FUNCTION' order by name
 ```
 
 Available fields:
