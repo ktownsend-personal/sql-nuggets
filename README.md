@@ -6,8 +6,6 @@ I have been using SQL Server for a very long time...since version 6.5, before th
 
 >Feedback is welcome. If you fix a problem or add a useful feature feel free to submit a PR and give me some details about it. If you have a problem you can't fix, of course raise an issue.
 
-## Nuggets
-
 Each nugget has a folder with a `README.md` file for more information. The nugget itself is in the corresponding `.sql` file in that folder.
 
 |Nugget|Description|
