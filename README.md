@@ -16,3 +16,5 @@ Each nugget has a folder with a `README.md` file for more information. The nugge
 |[json-flatten](json-flatten)|flatten all depths of JSON to rows|
 |[data-compare](data-compare)|compare any two sets of data|
 |[table-row-counts](table-row-counts)|row counts for all tables in a database|
+|[dependency-matrix](dependency-matrix)|find objects using an object, and what columns are used|
+|[find-objects](find-objects)|find objects containing a search string in their definitions|
