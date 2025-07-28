@@ -18,3 +18,4 @@ Each nugget has a folder with a `README.md` file for more information. The nugge
 |[find-objects](/nuggets/find-objects)|find objects containing a search string in their definitions|
 |[epoch-to-datetime](/nuggets/epoch-to-datetime/)|convert between unix timestamp and datetime2|
 |[periods](/nuggets/periods)|generate weekly or monthly periods for trend reporting|
+|[json-array-helpers](/nuggets/json-array-helpers)|helpers for working with delimited strings and JSON arrays|
