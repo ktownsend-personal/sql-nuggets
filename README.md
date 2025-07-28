@@ -12,10 +12,10 @@ Each nugget has a folder with a `README.md` file for more information. The nugge
 |:---|:---|
 |[json-minify](/nuggets/json-minify)|strip whitespace out of JSON string|
 |[json-flatten](/nuggets/json-flatten)|flatten all depths of JSON to rows|
+|[json-array-helpers](/nuggets/json-array-helpers)|helpers for working with delimited strings and JSON arrays|
 |[data-compare](/nuggets/data-compare)|compare any two sets of data|
 |[table-row-counts](/nuggets/table-row-counts)|row counts for all tables in a database|
 |[dependency-matrix](/nuggets/dependency-matrix)|find objects using an object, and what columns are used|
 |[find-objects](/nuggets/find-objects)|find objects containing a search string in their definitions|
 |[epoch-to-datetime](/nuggets/epoch-to-datetime/)|convert between unix timestamp and datetime2|
 |[periods](/nuggets/periods)|generate weekly or monthly periods for trend reporting|
-|[json-array-helpers](/nuggets/json-array-helpers)|helpers for working with delimited strings and JSON arrays|
